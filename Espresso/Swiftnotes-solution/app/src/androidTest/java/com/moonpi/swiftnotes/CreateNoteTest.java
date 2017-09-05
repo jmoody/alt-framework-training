@@ -8,11 +8,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 
+import com.xamarin.testcloud.espresso.Factory;
+import com.xamarin.testcloud.espresso.ReportHelper;
+
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.hamcrest.TypeSafeMatcher;
 import org.json.JSONObject;
+import org.junit.After;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -45,6 +49,9 @@ import static org.hamcrest.CoreMatchers.is;
 public class CreateNoteTest {
     @Rule
     public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    @Rule
+    public ReportHelper reportHelper = Factory.getReportHelper();
 
     @Test
     public void testCreateNote() {
@@ -91,6 +98,7 @@ public class CreateNoteTest {
 
     @Test
     public void testCreateNoteHandCurated() {
+        reportHelper.label("Create new note");
         onView(withId(R.id.newNote)).perform(click()).check(doesNotExist());
 
         ViewInteraction title = onView(withId(R.id.titleEdit));
@@ -100,16 +108,29 @@ public class CreateNoteTest {
         String uniqTitle = UUID.randomUUID().toString().substring(0, 29);
         title.perform(replaceText(uniqTitle), closeSoftKeyboard());
 
+        reportHelper.label("Title set");
+
         onView(withId(R.id.bodyEdit)).perform(replaceText("My note content"), closeSoftKeyboard());
+
+        reportHelper.label("Body set");
 
         onView(allOf(withClassName(endsWith("AppCompatImageButton")), withParent(withId(R.id.toolbarEdit))))
                 .perform(click());
+
+        reportHelper.label("Save?");
 
         onView(withText(R.string.yes_button)).check(matches(isDisplayed()))
                 .perform(click());
 
         onData(allOf(is(instanceOf(JSONObject.class)), hasTitle(uniqTitle)))
                 .check(matches(withChild(allOf(withId(R.id.titleView), withText(uniqTitle), isDisplayed()))));
+        reportHelper.label("Saved and in the list");
+
+    }
+
+    @After
+    public void TearDown(){
+        reportHelper.label("Stopping App");
     }
 
     private Matcher<JSONObject> hasTitle(final String title) {
