@@ -28,13 +28,6 @@ public class StartAppTest {
         return new AndroidDriver<AndroidElement>(url, capabilities);
     }
 
-    @Test void addNote() {
-        driver = startApp();
-        driver.findElement(By.name(""));
-        driver.findElementByAccessibilityId("New Note");
-
-    }
-
 
     @Test
     public void canStartAppInTest() throws MalformedURLException {
