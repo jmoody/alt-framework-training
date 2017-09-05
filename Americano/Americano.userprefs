@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{9663A711-5D37-49ED-B383-0AC4E3272416}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Americano.UITests/Tests.cs">
+    <Files>
+      <File FileName="Americano/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Americano.UITests/Tests.cs" Line="26" Column="79" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Americano" expanded="True">
+            <Node name="Americano.UITests" expanded="True">
+              <Node name="Americano" expanded="True">
+                <Node name="UITests" expanded="True">
+                  <Node name="Tests" expanded="True">
+                    <Node name="ClickingButtonTwiceShouldChangeItsLabel" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Americano PreferredExecutionTarget="Android.Pixel_API_26" />
+  <MultiItemStartupConfigurations />
+</Properties>
