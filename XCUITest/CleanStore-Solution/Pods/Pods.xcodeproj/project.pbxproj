@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABA2CF0F3FDC7DEAB6D71151E9A278C /* VSMobileCenterExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BED26D755B6BF79DB75B5A2C69B82A8 /* VSMobileCenterExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		122320FE4CABF33F34CADAB63EF08AAF /* VSMobileCenterExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D873BC0ADE9940A5AD4E7B0611FA8189 /* VSMobileCenterExtensions-dummy.m */; };
+		20C5B90C8D6E089B322B2CEEF3515D1A /* MCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF31DE2473D88DA08084AAA4B718D34 /* MCLabel.m */; };
+		244F3A919E389708F5A08F6C26807372 /* Pods-CleanStoreUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE29AFE0701FD269F82EC3279A986727 /* Pods-CleanStoreUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27E1EB4502F8CDC3070290CC23DD231F /* Pods-CleanStoreUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F8F41A15B09CDB848AC07B365230F1 /* Pods-CleanStoreUITests-dummy.m */; };
+		33DC31D58E649BF20D8C22DFC836AF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		51A544835DD185871F94BA6F0381D123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		7E28E6310DA827851E64A18B34DEAD77 /* VSMobileCenterExtensions-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C307A04DF469F36693CAC8EC093057CE /* VSMobileCenterExtensions-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DD42EC1CAC1AA3B664E3C6A3A73FEA1 /* MCLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB932ABAEB2E6B089A3B524C53ED1C7 /* MCLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA4872DD1D5112ED100770DE0509F48F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
+		F91DF89DEEADF39AE17684DAA6E01C27 /* VSMobileCenterExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4122A907F8ED1D1845CD3879B4A09CF2 /* VSMobileCenterExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DE2CE8AEA76575A7782CE713DA4EB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42140F430C52E2F6D4692D98CFA4658B;
+			remoteInfo = VSMobileCenterExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23313D0366C8F5A8FF2958F2B47FE1BF /* Pods-CleanStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2DF31DE2473D88DA08084AAA4B718D34 /* MCLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCLabel.m; path = VSMobileCenterExtensions/MCLabel.m; sourceTree = "<group>"; };
+		3E15150908523439BFB4E522629F6E05 /* VSMobileCenterExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VSMobileCenterExtensions.modulemap; sourceTree = "<group>"; };
+		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4122A907F8ED1D1845CD3879B4A09CF2 /* VSMobileCenterExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSMobileCenterExtensions-umbrella.h"; sourceTree = "<group>"; };
+		45023DDDC9A005C5E2B68AFBD6541653 /* Pods-CleanStoreUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CleanStoreUITests.modulemap"; sourceTree = "<group>"; };
+		461FD49CFF2C26DC1526B2D3416AA6DE /* VSMobileCenterExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSMobileCenterExtensions.xcconfig; sourceTree = "<group>"; };
+		51F8F41A15B09CDB848AC07B365230F1 /* Pods-CleanStoreUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanStoreUITests-dummy.m"; sourceTree = "<group>"; };
+		562CD2F13C2EA22D2337DD0101342B06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BED26D755B6BF79DB75B5A2C69B82A8 /* VSMobileCenterExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VSMobileCenterExtensions.h; path = VSMobileCenterExtensions/VSMobileCenterExtensions.h; sourceTree = "<group>"; };
+		7991FF9714D6117C47F6201F6B4C45DD /* Pods_CleanStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CleanStoreUITests.framework; path = "Pods-CleanStoreUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADBDD6F8C54E703DE5BC3521A04D3A5 /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VSMobileCenterExtensions.framework; path = VSMobileCenterExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE3EFBB8D0B34308130AA5DA104CB15 /* Pods-CleanStoreUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanStoreUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81051CA52ED5E25CFA446B142D511D50 /* Pods-CleanStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8284968024B92FF59802E8E11783B636 /* Pods-CleanStoreUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanStoreUITests-frameworks.sh"; sourceTree = "<group>"; };
+		88739574B58C4FD224113669993AF7EE /* VSMobileCenterExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSMobileCenterExtensions-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C5DA1737F8507BAE8DCF5C0F86DEA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8B4D08453AD363BAF553B58C2D3B4F /* Pods-CleanStoreUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanStoreUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFB932ABAEB2E6B089A3B524C53ED1C7 /* MCLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCLabel.h; path = VSMobileCenterExtensions/MCLabel.h; sourceTree = "<group>"; };
+		C307A04DF469F36693CAC8EC093057CE /* VSMobileCenterExtensions-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VSMobileCenterExtensions-Bridging-Header.h"; path = "VSMobileCenterExtensions/VSMobileCenterExtensions-Bridging-Header.h"; sourceTree = "<group>"; };
+		CCC61E07FC1EF3A3969FCF47075BA70D /* Pods-CleanStoreUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanStoreUITests-resources.sh"; sourceTree = "<group>"; };
+		D873BC0ADE9940A5AD4E7B0611FA8189 /* VSMobileCenterExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VSMobileCenterExtensions-dummy.m"; sourceTree = "<group>"; };
+		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE29AFE0701FD269F82EC3279A986727 /* Pods-CleanStoreUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanStoreUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AD87739FA0B4409EAD19D1853EB6CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A544835DD185871F94BA6F0381D123 /* Foundation.framework in Frameworks */,
+				DA4872DD1D5112ED100770DE0509F48F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BE6657404FCBBA49DC0D91345F1050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DC31D58E649BF20D8C22DFC836AF07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C3AD8D2CBF1AD47710914BD9CA456F /* VSMobileCenterExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				AFB932ABAEB2E6B089A3B524C53ED1C7 /* MCLabel.h */,
+				2DF31DE2473D88DA08084AAA4B718D34 /* MCLabel.m */,
+				5BED26D755B6BF79DB75B5A2C69B82A8 /* VSMobileCenterExtensions.h */,
+				C307A04DF469F36693CAC8EC093057CE /* VSMobileCenterExtensions-Bridging-Header.h */,
+				A83B04E3E684B0F3FBE2CC469D25851A /* Support Files */,
+			);
+			name = VSMobileCenterExtensions;
+			path = VSMobileCenterExtensions;
+			sourceTree = "<group>";
+		};
+		21252DDB980092FE1BC1A2F6DCDF9C80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18C3AD8D2CBF1AD47710914BD9CA456F /* VSMobileCenterExtensions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE34EE7067F7CC8A54539A282682749 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E8C56FD93C0C6D3114A2298DA4790ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B6AA6D3FCFB80A208DF37FA47B9969 /* Pods-CleanStoreUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BE34EE7067F7CC8A54539A282682749 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */,
+				3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				21252DDB980092FE1BC1A2F6DCDF9C80 /* Pods */,
+				7ECF12A3F92DD17F9BE5B3AB3845C853 /* Products */,
+				5E8C56FD93C0C6D3114A2298DA4790ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ECF12A3F92DD17F9BE5B3AB3845C853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7991FF9714D6117C47F6201F6B4C45DD /* Pods_CleanStoreUITests.framework */,
+				7ADBDD6F8C54E703DE5BC3521A04D3A5 /* VSMobileCenterExtensions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83B04E3E684B0F3FBE2CC469D25851A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				562CD2F13C2EA22D2337DD0101342B06 /* Info.plist */,
+				3E15150908523439BFB4E522629F6E05 /* VSMobileCenterExtensions.modulemap */,
+				461FD49CFF2C26DC1526B2D3416AA6DE /* VSMobileCenterExtensions.xcconfig */,
+				D873BC0ADE9940A5AD4E7B0611FA8189 /* VSMobileCenterExtensions-dummy.m */,
+				88739574B58C4FD224113669993AF7EE /* VSMobileCenterExtensions-prefix.pch */,
+				4122A907F8ED1D1845CD3879B4A09CF2 /* VSMobileCenterExtensions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VSMobileCenterExtensions";
+			sourceTree = "<group>";
+		};
+		C4B6AA6D3FCFB80A208DF37FA47B9969 /* Pods-CleanStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93C5DA1737F8507BAE8DCF5C0F86DEA8 /* Info.plist */,
+				45023DDDC9A005C5E2B68AFBD6541653 /* Pods-CleanStoreUITests.modulemap */,
+				7FE3EFBB8D0B34308130AA5DA104CB15 /* Pods-CleanStoreUITests-acknowledgements.markdown */,
+				AC8B4D08453AD363BAF553B58C2D3B4F /* Pods-CleanStoreUITests-acknowledgements.plist */,
+				51F8F41A15B09CDB848AC07B365230F1 /* Pods-CleanStoreUITests-dummy.m */,
+				8284968024B92FF59802E8E11783B636 /* Pods-CleanStoreUITests-frameworks.sh */,
+				CCC61E07FC1EF3A3969FCF47075BA70D /* Pods-CleanStoreUITests-resources.sh */,
+				FE29AFE0701FD269F82EC3279A986727 /* Pods-CleanStoreUITests-umbrella.h */,
+				81051CA52ED5E25CFA446B142D511D50 /* Pods-CleanStoreUITests.debug.xcconfig */,
+				23313D0366C8F5A8FF2958F2B47FE1BF /* Pods-CleanStoreUITests.release.xcconfig */,
+			);
+			name = "Pods-CleanStoreUITests";
+			path = "Target Support Files/Pods-CleanStoreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7DE05F81EA71B856C64BC625B97615CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244F3A919E389708F5A08F6C26807372 /* Pods-CleanStoreUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F7B9E5994FCEA1847910A3A83148EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD42EC1CAC1AA3B664E3C6A3A73FEA1 /* MCLabel.h in Headers */,
+				7E28E6310DA827851E64A18B34DEAD77 /* VSMobileCenterExtensions-Bridging-Header.h in Headers */,
+				F91DF89DEEADF39AE17684DAA6E01C27 /* VSMobileCenterExtensions-umbrella.h in Headers */,
+				0ABA2CF0F3FDC7DEAB6D71151E9A278C /* VSMobileCenterExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42140F430C52E2F6D4692D98CFA4658B /* VSMobileCenterExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0B335D2FDCC1FA8E6973BFBF32317F /* Build configuration list for PBXNativeTarget "VSMobileCenterExtensions" */;
+			buildPhases = (
+				402EECFA0D588A790D1FEAF997AC550F /* Sources */,
+				1AD87739FA0B4409EAD19D1853EB6CF0 /* Frameworks */,
+				D7F7B9E5994FCEA1847910A3A83148EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSMobileCenterExtensions;
+			productName = VSMobileCenterExtensions;
+			productReference = 7ADBDD6F8C54E703DE5BC3521A04D3A5 /* VSMobileCenterExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		980F6DD18CEE66428EB0C29D3498E14D /* Pods-CleanStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69594DFA4D4E286C766952E6CEF47242 /* Build configuration list for PBXNativeTarget "Pods-CleanStoreUITests" */;
+			buildPhases = (
+				10B8FAF6E256DE94D71571CB87831536 /* Sources */,
+				A0BE6657404FCBBA49DC0D91345F1050 /* Frameworks */,
+				7DE05F81EA71B856C64BC625B97615CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3599C375C41481A4CFE0B3A54BFCEDD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-CleanStoreUITests";
+			productName = "Pods-CleanStoreUITests";
+			productReference = 7991FF9714D6117C47F6201F6B4C45DD /* Pods_CleanStoreUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7ECF12A3F92DD17F9BE5B3AB3845C853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980F6DD18CEE66428EB0C29D3498E14D /* Pods-CleanStoreUITests */,
+				42140F430C52E2F6D4692D98CFA4658B /* VSMobileCenterExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B8FAF6E256DE94D71571CB87831536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E1EB4502F8CDC3070290CC23DD231F /* Pods-CleanStoreUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402EECFA0D588A790D1FEAF997AC550F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C5B90C8D6E089B322B2CEEF3515D1A /* MCLabel.m in Sources */,
+				122320FE4CABF33F34CADAB63EF08AAF /* VSMobileCenterExtensions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3599C375C41481A4CFE0B3A54BFCEDD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VSMobileCenterExtensions;
+			target = 42140F430C52E2F6D4692D98CFA4658B /* VSMobileCenterExtensions */;
+			targetProxy = 9DE2CE8AEA76575A7782CE713DA4EB25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B33186FA3861A2082EB43CD64A1A4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23313D0366C8F5A8FF2958F2B47FE1BF /* Pods-CleanStoreUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanStoreUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanStoreUITests/Pods-CleanStoreUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CleanStoreUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A61FAFD054C059F07D2E9E2AAB31F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461FD49CFF2C26DC1526B2D3416AA6DE /* VSMobileCenterExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VSMobileCenterExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VSMobileCenterExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67EA3F7D11D431468B952A27257781BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81051CA52ED5E25CFA446B142D511D50 /* Pods-CleanStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanStoreUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanStoreUITests/Pods-CleanStoreUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CleanStoreUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		916703F270FD609E858F9F8963281634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461FD49CFF2C26DC1526B2D3416AA6DE /* VSMobileCenterExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VSMobileCenterExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VSMobileCenterExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69594DFA4D4E286C766952E6CEF47242 /* Build configuration list for PBXNativeTarget "Pods-CleanStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EA3F7D11D431468B952A27257781BF /* Debug */,
+				3B33186FA3861A2082EB43CD64A1A4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0B335D2FDCC1FA8E6973BFBF32317F /* Build configuration list for PBXNativeTarget "VSMobileCenterExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A61FAFD054C059F07D2E9E2AAB31F7B /* Debug */,
+				916703F270FD609E858F9F8963281634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
