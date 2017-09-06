@@ -1,4 +1,5 @@
 import XCTest
+import VSMobileCenterExtensions
 
 class CleanStoreUITests: XCTestCase {
         
@@ -23,17 +24,22 @@ class CleanStoreUITests: XCTestCase {
     func testAddOrder() {
         
         let app = XCUIApplication()
+        MCLabel.labelStep("Lets add an order")
         waitAndTap(element: app.navigationBars["List Orders"].buttons["Add"])
         
         let tablesQuery = app.tables
         let textField = tablesQuery.cells.containing(.staticText, identifier:"First Name").children(matching: .textField).element
         waitAndTap(element: textField)
         textField.typeText("Simon")
+        MCLabel.labelStep("Order for simon almost done")
         
         let textField2 = tablesQuery.children(matching: .cell).element(boundBy: 7).children(matching: .textField).element
         waitAndTap(element: textField2)
         textField2.typeText("CA")
+        MCLabel.labelStep("CA, not Aarhus?")
         waitAndTap(element: app.navigationBars.buttons["Save"])
+        MCLabel.labelStep("Order complete")
+        
     }
     
 }

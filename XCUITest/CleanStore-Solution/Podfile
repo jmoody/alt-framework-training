@@ -1,5 +1,5 @@
 use_frameworks! #this line is necessary if your project is using Swift
 
 target 'CleanStoreUITests' do
-  pod 'VSMobileCenterExtensions'
+	pod 'VSMobileCenterExtensions' 
 end
