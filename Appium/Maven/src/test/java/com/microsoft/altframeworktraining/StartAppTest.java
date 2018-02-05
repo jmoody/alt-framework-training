@@ -19,7 +19,7 @@ public class StartAppTest {
 
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "foo");
-        capabilities.setCapability(MobileCapabilityType.APP, "/Users/john7doe/src/alt-framework-training/Appium/swiftnote.apk");
+        capabilities.setCapability(MobileCapabilityType.APP, "/Users/krukow/code/alt-framework-training/Appium/swiftnote.apk");
         capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 7913);
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 
@@ -30,8 +30,11 @@ public class StartAppTest {
 
 
     @Test
-    public void canStartAppInTest() throws MalformedURLException {
+    public void canStartAppInTest() throws MalformedURLException, InterruptedException {
         driver = startApp();
+        AndroidElement elem = Util.findByByOrName(driver, By.id("com.moonpi.swiftnotes:id/newNote"), "+");
+        elem.click();
+        Thread.sleep(5000);
     }
 
     @After
